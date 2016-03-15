@@ -1,0 +1,80 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+$container-large-desktop: 980px;
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header{
+  height:50px;
+  background-color: rgba(75, 111, 155, 1);
+  text-align: center;
+  .header-content{
+    margin: 0 auto;
+    width: 980px;
+    #title{
+      float: left;
+      color: white;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      margin: 12px 0 0 0px;
+      font-weight: 100;
+
+    }
+    .add-btn{
+      float: right;
+      height: 35px;
+      padding-top: 6px;
+      margin-top: 7px;
+      background-color: rgba(75, 111, 155, 1);
+      border: 1px solid white;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: white;
+      padding-right: 6px;
+      padding-left: 10px;
+      font-weight: 100;
+      span{
+        padding: 0px 0px 0px 10px;
+        vertical-align: text-top;      }
+    }
+  }
+}
+
+#add-form{
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  padding: 15px 0 20px 0;
+  #form-content{
+    margin: 0 auto;
+    width: 980px;
+    #add-image{
+      float: right;
+    }
+  }
+}
+
+.container{
+  background-color: rgba(224, 225, 226, 1);
+
+  .row{
+    margin-top: 30px;
+    .thumbnail{
+      padding: 0;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
